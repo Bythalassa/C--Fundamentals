@@ -18,8 +18,8 @@ This repository contains my learning materials and practice projects from **_“
 
 ```
 CSharp-Fundamentals/
-├──week3/           
-├──week3/ExerciseOne      # Data Types and Operators
+├── week3/           
+├── week3/ExerciseOne      # Data Types and Operators
 ├── week3/ExerciseTwo     # Data Types and Operators
 ├── week3/ExerciseThree   # Data Types and Operators
 ├── week3/ExerciseFour    # Data Types and Operators
