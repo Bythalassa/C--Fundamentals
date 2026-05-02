@@ -1,5 +1,5 @@
 using System;
-// Exercises 10-20 from lab
+// 10-20 lab exercises
 
 using JetBrains.Annotations;
 using System.Runtime.ConstrainedExecution;
@@ -61,8 +61,6 @@ public class Script1 : MonoBehaviour
     }
 
 
-
-
     public void ExerciseNineteen() // Method: Complex classification
     {
         int score = 200;
@@ -78,9 +76,6 @@ public class Script1 : MonoBehaviour
         Debug.Log("Player rank is: " + rankStatus);
     }
 
-
-
-
     public void ExerciseEighteen() // Method with double ternary
     {
         float distance = 12.5f;
@@ -94,11 +89,6 @@ public class Script1 : MonoBehaviour
         string attackType = GetAttackType(distance);
         Debug.Log("Attack type is: " + attackType);
     }
-
-
-
-
-
 
     public void ExerciseSeventeen() // Method: Smart door opening
     {
@@ -119,8 +109,6 @@ public class Script1 : MonoBehaviour
     }
 
 
-
-
     public void ExerciseSixteen() // Method: Player state
     {
         string GetPlayerState(int health, int stamina)
@@ -135,9 +123,6 @@ public class Script1 : MonoBehaviour
         Debug.Log("Player state is: " + state);
     }
 
-
-
-
     public void ExerciseFifteen() // Enemy state 2
     {
         string state;
@@ -150,10 +135,6 @@ public class Script1 : MonoBehaviour
         Debug.Log("Enemy state is: " + state);
     }
 
-
-
-
-
     public void ExerciseFourteen() // Damage multiplier
     {
         bool criticalAttack = true;
@@ -163,11 +144,6 @@ public class Script1 : MonoBehaviour
         attackState = criticalAttack ? enemyVulnerable ? "damage x2" : "damage x1.5" : "normal damage";
         Debug.Log("Your attack type is: " + attackState);
     }
-
-
-
-
-
 
     public void ExerciseThirteen() // Movement type
     {
@@ -181,10 +157,6 @@ public class Script1 : MonoBehaviour
 
         Debug.Log("Your movement type is: " + movement);
     }
-
-
-
-
 
     public void ExerciseTwelve() // Special zone access
     {
@@ -200,10 +172,6 @@ public class Script1 : MonoBehaviour
         Debug.Log("Special zone entry: " + access);
     }
 
-
-
-
-
     public void ExerciseElevenForm1() // Visual health state
     {
         string state;
@@ -213,10 +181,6 @@ public class Script1 : MonoBehaviour
         Debug.Log("Your state is: " + state);
     }
 
-
-
-
-
     public void ExerciseElevenForm2() // Visual health state - readable values from stable to critical
     {
         string state;
@@ -224,11 +188,6 @@ public class Script1 : MonoBehaviour
 
         state = health > 20 ? health > 50 ? "stable" : "injured" : "critical";
     }
-
-
-
-
-
 
     public void ExerciseTen() // Basic enemy AI - using nested ternaries
     {
@@ -239,8 +198,4 @@ public class Script1 : MonoBehaviour
         state = enemyWatching ? playerNear ? "Attack" : "Chase" : "Patrol";
         Debug.Log(state);
     }
-
-
-
-
 }
