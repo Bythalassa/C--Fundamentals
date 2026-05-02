@@ -27,8 +27,8 @@ CSharp-Fundamentals/
 ├── week4/Algorythms1/ExerciseOne      # Simple Hardcodded Algorythms without external dependencies 
 ├── week4/Algorythms1/ExerciseTwo      # Simple Hardcodded Algorythms without external dependencies 
 ├── week4/Algorythms1/ExerciseThree    # Simple Hardcodded Algorythms without external dependencies 
-├── week4/Algorythms2/RemakeGameTimer  # Simple Hardcodded Algorythm, external dependencies(1)
-├── week4/Algorythms2/RemakeGameTimer  # Simple Hardcodded Algorythm, external dependencies(1)
+├── week4/Algorythms2/RemakeGameTimer_Timer  # Simple Hardcodded Algorythm, external dependencies(1)
+├── week4/Algorythms2/RemakeGameTimer_Sword  # Simple Hardcodded Algorythm, external dependencies(1)
 ├── week5/ 
 ├── week5/Script1                      # Conditionals (if / else) and Ternary Operators
 ├── week6/ 
