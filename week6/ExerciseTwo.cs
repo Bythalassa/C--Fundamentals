@@ -55,9 +55,16 @@ public class W5PracticalB3 : MonoBehaviour
 
     void HigherIv2()
     {
-        //en-desarrollo
-        //muestra cual es el mayor entre posicion 0 y la 1
-        string HigherIv2 = numbers[0] > numbers[2] ? "Index 0 is the highest value" : "Index 1 is the highest value";
+        //muestra cual es el mayor entre posicion 0 y la 1 con if else
+        string HigherIv2;
+        if (numbers[0] > numbers[2])
+        {
+            HigherIv2 = "Index 0 is the highest value";
+        }
+        else
+        {
+            HigherIv2 = "Index 1 is the highest value";
+        }
         print(HigherIv2);
     }
 
