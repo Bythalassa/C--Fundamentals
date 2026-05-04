@@ -32,7 +32,9 @@ CSharp-Fundamentals/
 ├── week5/ 
 ├── week5/Script1                      # Conditionals (if / else) and Ternary Operators
 ├── week6/ 
-├── week6/Script1                      # List and Arrays
+├── week6/ExerciseOne      # Lists and Arrays
+├── week6/ExerciseTwo      # Lists and Arrays
+├── week6/ExerciseThree    # Lists and Arrays
 ├── README.md                # Repository Resume
 ```
 
@@ -41,7 +43,7 @@ CSharp-Fundamentals/
 - [x] week 3
 - [x] week 4 
 - [x] week 5
-- [ ] week 6 
+- [x] week 6 
 - [ ] week 7
 - [ ] week 8 
 - [ ] week 9 
