@@ -3,13 +3,13 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class W5PracticalB3 : MonoBehaviour
+public class W6PracticalB3 : MonoBehaviour
 {
     //Block 3 : Operators Management without bucles
 
     int[] numbers = new int[3];
 
-    [SerializeField] private List<string> colores = new List<string>();
+    [SerializeField] private List<string> colors = new List<string>();
 
     void Start()
     {
@@ -22,6 +22,15 @@ public class W5PracticalB3 : MonoBehaviour
         equalityVerification();
         replaceValues();
         HigherIv2();
+
+
+        colors.Add("red");
+        colors.Add("yellow");
+        colors.Add("blue");
+        colors.Add("black");
+        colors.Add("gray");
+
+        colorValidation();
 
     }
 
@@ -68,6 +77,12 @@ public class W5PracticalB3 : MonoBehaviour
         print(HigherIv2);
     }
 
+    void colorValidation()
+    {
+        //verifica si el elemento en la posicion 1 de una lista es igual a un valor especifico
+        string colorValidation = colors[1] == "gray" ? "The color at position 1 is gray." : "The color at position 1 is not gray.";
+        print(colorValidation);
+    }
 
 
 }
