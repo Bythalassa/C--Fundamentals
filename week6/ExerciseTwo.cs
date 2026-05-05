@@ -14,7 +14,6 @@ public class W6PracticalB3 : MonoBehaviour
 
     void Start()
     {
-
         numbers[0] = 5;
         numbers[1] = 6;
         numbers[2] = 7;
@@ -37,20 +36,23 @@ public class W6PracticalB3 : MonoBehaviour
 
     void Update()
     {
-
     }
 
     void HigherI()
     {
         //muestra cual es el mayor entre posicion 0 y la 1
-        string HigherI = numbers[0] > numbers[1] ? "Index 0 is the highest value" : "Index 1 is the highest value";
+        string HigherI = numbers[0] > numbers[1] 
+            ? "Index 0 is the highest value" 
+            : "Index 1 is the highest value";
         print(HigherI);
     }
 
     void equalityVerification()
     {
         //verifica si el primer y último elemento del array son iguales
-        string equalityVerification = numbers[0] == numbers[numbers.Length - 1] ? "The first and last element are equal values." : "The first and last element are different values.";
+        string equalityVerification = numbers[0] == numbers[numbers.Length - 1] 
+            ? "The first and last element are equal values." 
+            : "The first and last element are different values.";
         print(equalityVerification);
     }
 
@@ -60,7 +62,9 @@ public class W6PracticalB3 : MonoBehaviour
         int temp = numbers[0];
         numbers[0] = numbers[2];
         numbers[2] = temp;
-        print("Values at positions 0 and 2 have been swapped to " + numbers[0] + " and " + numbers[2]);
+        print("Values at positions 0 and 2 have been swapped to " 
+            + numbers[0] 
+            + " and " + numbers[2]);
     }
 
     void HigherIv2()
@@ -80,14 +84,37 @@ public class W6PracticalB3 : MonoBehaviour
             HigherIv2 = "Index 2 is the highest value";
         }
         print(HigherIv2);
-        print("Live values after the swapped : " + "Index 0 = " + numbers[0] + ", Index 1 = " + numbers[1] + ", Index 2 = " + numbers[2]);
+        print("Live values after the swapped : " 
+            + "Index 0 = " + numbers[0] 
+            + ", Index 1 = " + numbers[1] 
+            + ", Index 2 = " + numbers[2]);
     
         }
     void colorValidation()
     {
         //verifica si el elemento en la posicion 1 de una lista es igual a un valor especifico
-        string colorValidation = colors[1] == "gray" ? "The color at position 1 is gray." : "The color at position 1 is not gray.";
+        string colorValidation = colors[1] == "gray" 
+            ? "The color at position 1 is gray." 
+            : "The color at position 1 is not gray.";
         print(colorValidation);
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
