@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -14,9 +15,9 @@ public class W6PracticalB3 : MonoBehaviour
     void Start()
     {
 
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[2] = 3;
+        numbers[0] = 5;
+        numbers[1] = 6;
+        numbers[2] = 7;
 
         HigherI();
         equalityVerification();
@@ -42,7 +43,7 @@ public class W6PracticalB3 : MonoBehaviour
     void HigherI()
     {
         //muestra cual es el mayor entre posicion 0 y la 1
-        string HigherI = numbers[0] > numbers[2] ? "Index 0 is the highest value" : "Index 1 is the highest value";
+        string HigherI = numbers[0] > numbers[1] ? "Index 0 is the highest value" : "Index 1 is the highest value";
         print(HigherI);
     }
 
@@ -63,27 +64,30 @@ public class W6PracticalB3 : MonoBehaviour
     }
 
     void HigherIv2()
-    {
-        //muestra cual es el mayor entre posicion 0 y la 1 con if else
+    {//muestra cual es el mayor
         string HigherIv2;
-        if (numbers[0] > numbers[2])
+
+        if (numbers[0] > numbers[1] && numbers[0] > numbers[2])
         {
             HigherIv2 = "Index 0 is the highest value";
         }
-        else
+        else if (numbers[1] > numbers[0] && numbers[1] > numbers[2])
         {
             HigherIv2 = "Index 1 is the highest value";
         }
+        else
+        {
+            HigherIv2 = "Index 2 is the highest value";
+        }
         print(HigherIv2);
-    }
-
+        print("Live values after the swapped : " + "Index 0 = " + numbers[0] + ", Index 1 = " + numbers[1] + ", Index 2 = " + numbers[2]);
+    
+        }
     void colorValidation()
     {
         //verifica si el elemento en la posicion 1 de una lista es igual a un valor especifico
         string colorValidation = colors[1] == "gray" ? "The color at position 1 is gray." : "The color at position 1 is not gray.";
         print(colorValidation);
     }
-
-
 
 }
