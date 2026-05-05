@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class W5PracticalB2 : MonoBehaviour
+public class W6PracticalB2 : MonoBehaviour
 {
     //Block 2 : Access and direct manipulation of Array and List elements
     int[] numbers = new int[5];

@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 public class W6PracticalB3 : MonoBehaviour
 {
-    //Block 3 : Operators Management without bucles --
+    //Block 3 : Operators Management without bucles
 
     int[] numbers = new int[3];
 
@@ -83,6 +83,7 @@ public class W6PracticalB3 : MonoBehaviour
         string colorValidation = colors[1] == "gray" ? "The color at position 1 is gray." : "The color at position 1 is not gray.";
         print(colorValidation);
     }
+
 
 
 }
