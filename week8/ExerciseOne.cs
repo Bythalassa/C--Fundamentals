@@ -1,5 +1,3 @@
-//bloque 3
-
 using UnityEngine;
 using System.Collections.Generic;
 using System;
@@ -36,8 +34,7 @@ public class blobk3 : MonoBehaviour
     void Start()
 
     {
-
-        ignoreEven();
+        stopCriticE();
     }
 
     void Update()
@@ -79,17 +76,34 @@ public class blobk3 : MonoBehaviour
     //ignora numeros pares
     private void ignoreEven()
     {
-
-
         for (int i = 0; i <= 20; i++) //define variable - define condicion - was ist zu der variable passiert 
             if (i % 2 == 0)
             {
                 print(i + " es par");
             }
-        }
-
-
     }
+
+    //Detener energía crítica
+
+    private void stopCriticE()
+    {
+        for (int i = 12; i > 0; i--) 
+            if (i  == 0)
+            {
+                Debug.Log(i + " Energia reducida a ");
+            }
+    }
+
+
+
+
+    //Detectar jefe final
+
+
+
+
+
+}
 
 
 
